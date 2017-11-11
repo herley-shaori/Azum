@@ -150,7 +150,7 @@ public class SingleLinkedList {
         int upperBound = 4;
 
         final SingleLinkedList sll = new SingleLinkedList();
-        while (upperBound < this.size){
+        while (upperBound <= this.size){
             final boolean range = this.range(lowerBound, upperBound);
             if(range){
                 final KeyValuePair<Integer> keyValuePair = new KeyValuePair<>(lowerBound,upperBound);

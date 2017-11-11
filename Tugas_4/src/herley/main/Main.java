@@ -47,6 +47,14 @@ public class Main {
 //        final Node<Kelereng> kelerengHijau = new Node(new Kelereng(Kelereng.HIJAU));
 //
 //        final SingleLinkedList sll = new SingleLinkedList();
+//        sll.addNode(new Node<Kelereng>(new Kelereng(Kelereng.BIRU)),0);
+//        sll.addNode(new Node<Kelereng>(new Kelereng(Kelereng.BIRU)),0);
+//        sll.addNode(new Node<Kelereng>(new Kelereng(Kelereng.BIRU)),0);
+//        sll.addNode(new Node<Kelereng>(new Kelereng(Kelereng.BIRU)),0);
+//
+//        System.out.println("Skor : "+sll.getSkor());
+
+
 //        sll.addNode(new Node<Kelereng>(new Kelereng(Kelereng.MERAH)),0);
 //        sll.addNode(new Node<Kelereng>(new Kelereng(Kelereng.HIJAU)),1);
 //        sll.addNode(new Node<Kelereng>(new Kelereng(Kelereng.HIJAU)),2);
@@ -58,6 +66,8 @@ public class Main {
 //        sll.addNode(new Node<Kelereng>(new Kelereng(Kelereng.HIJAU)));
 //        sll.addNode(new Node<Kelereng>(new Kelereng(Kelereng.KUNING)));
 //        sll.addNode(new Node<Kelereng>(new Kelereng(Kelereng.BIRU)),5);
+//
+//        System.out.println("Skor : "+sll.getSkor());
 //
 //        Node pointer = sll.getRoot();
 //        while (pointer != null){

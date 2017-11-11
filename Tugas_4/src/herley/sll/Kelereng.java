@@ -25,7 +25,7 @@ public class Kelereng {
     public int getWarna(){return this.warna;}
 
     public String toString(){
-        final String[]warna = new String[5];
+        final String[]warna = new String[11];
         warna[1] = "HIJAU";
         warna[2] = "BIRU";
         warna[3] = "MERAH";
